@@ -42,12 +42,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Ks-r4-a8k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-676.875" y="-325.35211267605632"/>
+            <point key="canvasLocation" x="-107" y="-325"/>
         </scene>
-        <!--View Controller-->
+        <!--Emoji Defintion View Controller-->
         <scene sceneID="5N2-q1-wFI">
             <objects>
-                <viewController id="Qhc-zh-gc4" sceneMemberID="viewController">
+                <viewController id="Qhc-zh-gc4" customClass="EmojiDefintionViewController" customModule="Emoji_Dictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QVc-Bq-adL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,10 +85,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ajA-jC-nC7"/>
                     </view>
+                    <connections>
+                        <outlet property="eMojiLabel" destination="QWF-5x-5rw" id="kiv-y7-MUK"/>
+                        <outlet property="emojiDefinitionLabel" destination="dTu-FG-m9y" id="2ds-xK-OST"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hs9-yq-wlU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="73.125" y="-325.35211267605632"/>
+            <point key="canvasLocation" x="639" y="-325"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="TKh-h7-L24">
